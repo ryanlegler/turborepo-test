@@ -1,0 +1,59 @@
+{
+  "name": "@repo/client-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "analyze": "ANALYZE=true next build",
+    "build": "next build",
+    "bundlewatch": "bundlewatch",
+    "dev": "next dev --port 3000",
+    "lint": "eslint . --max-warnings 0",
+    "msw:init": "msw init public/ --save",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@repo/mocks": "workspace:*",
+    "@repo/ui": "workspace:*",
+    "@tanstack/react-query": "*",
+    "@tanstack/react-table": "*",
+    "country-list": "^2.3.0",
+    "date-fns": "*",
+    "lucide-react": "*",
+    "msw": "*",
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-hook-form": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/types": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/country-list": "^2.1.4",
+    "@types/eslint": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "autoprefixer": "*",
+    "eslint": "*",
+    "postcss": "*",
+    "tailwindcss": "*",
+    "typescript": "*"
+  },
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "./.next/static/**/*.js",
+        "maxSize": "250kB"
+      }
+    ]
+  },
+  "msw": {
+    "workerDirectory": [
+      "./public",
+      "public"
+    ]
+  }
+}
