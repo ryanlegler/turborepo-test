@@ -20,7 +20,7 @@
     "date-fns": "*",
     "lucide-react": "*",
     "msw": "*",
-    "next": "14.2.14",
+    "next": "*",
     "react": "*",
     "react-dom": "*",
     "react-hook-form": "*",
