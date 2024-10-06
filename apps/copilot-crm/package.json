@@ -17,7 +17,7 @@
     "@tanstack/react-query": "*",
     "lucide-react": "*",
     "msw": "*",
-    "next": "*",
+    "next": "14.2.14",
     "react-dom": "*",
     "react-hook-form": "*",
     "zod": "*"

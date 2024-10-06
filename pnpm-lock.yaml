@@ -154,8 +154,8 @@ importers:
         specifier: '*'
         version: 2.4.9(typescript@5.5.4)
       next:
-        specifier: '*'
-        version: 14.2.8(@babel/core@7.25.7)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 14.2.14
+        version: 14.2.14(@babel/core@7.25.7)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react:
         specifier: '*'
         version: 18.2.0
@@ -230,8 +230,8 @@ importers:
         specifier: '*'
         version: 2.4.9(typescript@5.5.4)
       next:
-        specifier: '*'
-        version: 14.2.8(@babel/core@7.25.7)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 14.2.14
+        version: 14.2.14(@babel/core@7.25.7)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-dom:
         specifier: '*'
         version: 18.2.0(react@18.2.0)
